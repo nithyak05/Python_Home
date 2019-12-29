@@ -1,0 +1,63 @@
+"""val = input("Words are:")
+print(val)
+list=val.split(" ")
+print(list)
+#print(list.index("nemo"))
+for element in list:
+    if element == "nemo":
+        print(list.index(element))"""
+
+"""Test = input("Strings are:")
+
+# printing original strings
+print("The original string : " + Test)
+
+# using join() + isdigit() + filter()
+# Extract digit string
+Res = ''.join(filter(lambda i: i.isdigit(), Test))
+
+# print result
+print("The digits string is : " + str(Res))"""
+
+"""val = input("Alphanum are:")
+print(val)
+Char = list(val)
+print(Char)
+for i in Char:
+    if i.isdigit() == True:
+        print(i)"""
+
+"""import inflect
+from word2number import w2n
+a = inflect.engine()
+b = a.number_to_words(1525700000)
+c = w2n.word_to_num("one billion fifty thousand five hundred eighty four")
+print(b)
+print(c)"""
+
+
+"""def count_word(str):
+   # print([i for i in range (len(str)) for j in range(len(str))])
+
+    for i in range(len(str)):
+        count=0
+        for j in range(len(str)):
+            if(str[i]==str[j]):
+                count=count+1
+                dict[str[i]]=count
+    print(dict)
+dict={}
+str=input("enter a word:")
+count_word(str)"""
+
+"""from collections import Counter
+a = Counter("Nithyakalyani")
+print(a)"""
+
+
+
+
+
+
+
+
